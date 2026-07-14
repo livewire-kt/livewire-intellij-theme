@@ -9,7 +9,7 @@ Includes two themes, each pairing a UI theme with a matching editor color scheme
 - **Livewire Dark** — near-black ember-warm UI, red accents, orange links
 - **Livewire Light** — warm paper UI, red accents, burnt-amber links
 
-![](.github/darkmode-mode.png)
+![](.github/dark-mode.png)
 ![](.github/light-mode.png)
 
 ## Building
