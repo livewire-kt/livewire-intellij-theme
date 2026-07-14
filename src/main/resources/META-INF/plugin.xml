@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.livewire.theme</id>
     <name>Livewire Theme</name>
-    <vendor>Livewire</vendor>
+    <vendor url="https://github.com/livewire-kt">Livewire</vendor>
     <category>Theme</category>
     <description><![CDATA[
         Livewire brand theme for JetBrains IDEs — dark and light UI themes with
