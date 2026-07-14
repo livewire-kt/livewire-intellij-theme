@@ -1,3 +1,5 @@
+import org.jetbrains.intellij.platform.gradle.IntelliJPlatformType
+
 plugins {
     id("java")
     id("org.jetbrains.intellij.platform") version "2.18.1"
@@ -35,8 +37,12 @@ intellijPlatform {
     buildSearchableOptions = false
 
     pluginVerification {
+        // Verify against the oldest supported (sinceBuild 243) and current IDE
+        // only — recommended() downloads every recommended release and blows
+        // past the disk space available on GitHub-hosted runners.
         ides {
-            recommended()
+            create(IntelliJPlatformType.IntellijIdeaCommunity, "2024.3")
+            create(IntelliJPlatformType.IntellijIdeaCommunity, "2025.1.1")
         }
     }
 
