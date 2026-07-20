@@ -2,7 +2,7 @@
   "name": "Livewire Dark",
   "dark": true,
   "author": "Livewire",
-  "editorScheme": "/themes/LivewireDark.icls",
+  "editorScheme": "/themes/LivewireDark.xml",
   "colors": {
     "bgEditor": "#140E0D",
     "bgPanel": "#1B1412",
